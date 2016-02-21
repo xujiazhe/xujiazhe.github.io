@@ -13,11 +13,19 @@ description: > # this means to ignore newlines until "baseurl:" # 写一个网�
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xujiazhe.info" # the base hostname & protocol for your site
-social_links: true
-quora_username: Jiazhe-Xu
-twitter_username: xujiazhe
-github_username: xujiazhe
 
+social_links: [
+  [Github, 'https://github.com/xujiazhe'],
+  [Quora, 'https://quora.com/xujiazhe'],
+  [Twitter, 'https://twitter.com/xujiazhe'],
+  [Linkedin, 'http://www.linkedin.com/profile/view?id=168322793'],
+  [豆瓣, 'http://www.douban.com/people/66868569/'],
+  [知乎, 'http://www.zhihu.com/people/jia-zhe-xu'],
+  [微博, 'http://weibo.com/u/2979811624'],
+  [Google+, 'https://plus.google.com/111676680084673834081'],
+  [Topcoder, 'https://topcoder.com'],
+  [CodeForces, 'http://www.codeforces.com']
+]
 # Build settings
 markdown: rdiscount
 highlighter: pygments

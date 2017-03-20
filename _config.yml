@@ -12,21 +12,24 @@ description: > # this means to ignore newlines until "baseurl:" # 写一个网�
   My nickname could be surfree, I record my life and tech progress here.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://xujiazhe.info" # the base hostname & protocol for your site
+url: "http://www.xujiazhe.com" # the base hostname & protocol for your site
 
 social_links: [
   [Github, 'https://github.com/xujiazhe'],
-  [Quora, 'https://quora.com/xujiazhe'],
+  [Quora, 'https://www.quora.com/profile/Jiazhe-Xu'],
   [Twitter, 'https://twitter.com/xujiazhe'],
-  [Linkedin, 'http://www.linkedin.com/profile/view?id=168322793'],
+  [Linkedin, 'https://cn.linkedin.com/in/jiazhe-xu-03545548'],
   [豆瓣, 'http://www.douban.com/people/66868569/'],
-  [知乎, 'http://www.zhihu.com/people/jia-zhe-xu'],
+  [知乎, 'https://www.zhihu.com/people/surfree'],
   [微博, 'http://weibo.com/u/2979811624'],
   [Google+, 'https://plus.google.com/111676680084673834081'],
   [Topcoder, 'https://topcoder.com'],
   [CodeForces, 'http://www.codeforces.com']
 ]
 # Build settings
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 # encoding: utf-8
+excerpt_separator: ""
+
+# paginate: 5

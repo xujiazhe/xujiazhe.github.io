@@ -41,10 +41,15 @@ permalink: /about/
 > 低头设计代码，趴着写代码; *估计是能加强脑部供血*   
 > Crack 数理问题; *好奇心和发散思维驱使我从多个角度推敲*  
 > 躺着练口语；写文章，写段子; *有一定的创造力*   
-> 躺读论文    ----
+
+> 躺读论文  
+  
 
 
-<embed src='http://player.youku.com/player.php/sid/XMjYxMDUyNjExMg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>  
+----
+
+
+<embed src='https://player.youku.com/player.php/sid/XMjYxMDUyNjExMg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>  
 
 
 

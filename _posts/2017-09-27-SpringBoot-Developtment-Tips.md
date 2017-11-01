@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "springboot java web开发工程师效率"
-date:   2017-09-27 17:08:41 +0800
+date:   2017-10-27 17:08:41 +0800
 categories: work
 tags: work
 ---
@@ -25,38 +25,32 @@ java web项目每次重启时间成本太大.
    改动文件后, 编译该单元 -> **可能** 会触发热加载该模块.  (  build -> Recompile '.....java'   )
 
  + ##### idea IDE支持
-
-   - Run
-
+   - Run  
      ​	没有编译后reload功能
-
-   - Debug
-
+   - Debug  
      ​	reload the recompile的class. 最好用
 
 
-
  + ##### 引入SpringBoot Devtools
-
-     - Run
+     ```XML
+     <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-devtools</artifactId>
+         <optional>true</optional>
+     </dependency>
+     ```
+     - Run  
        ​编译一次 自动组装加载一次. 慢.
-     - Debug
+     - Debug  
        ​idea 提示加载, 程序自动加载.
-```XML
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-devtools</artifactId>
-    <optional>true</optional>
-</dependency>
-```
-​       相关文档   [devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html);  [hot swap 83](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-hotswapping.html);  [hot swap 84](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/)
+       
+       相关文档   [devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html);  [hot swap 83](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-hotswapping.html);  [hot swap 84](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/)
 
 
  + ##### JRebel IDE插件
-
      - JRebel Run 该应用    
          ​	重编该单元, 自动加载
-       - JRebel debug 方式启动该应用
+     - JRebel debug 方式启动该应用  
          ​	JRebel自动加载, idea也提示加载.
 
 

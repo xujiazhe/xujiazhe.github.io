@@ -17,11 +17,11 @@ permalink: /about/
 | :------ | :------: |
 | C | 7 |
 | Algorithm and Data Structure | 7 |
-| javascript | 6 |
-| python | 5 |
+| Javascript | 6 |
+| Python | 6 |
 | C++ | 5 |
-| Operating System | 4 |
-| CS Network | 3 |
+| Operating System | 5 |
+| CS Network | 4 |
 
 <br/>
   代码设计和阅读掌握能力强，学习钻研能力强；趴着编程效果更好；  
@@ -35,9 +35,12 @@ permalink: /about/
 ----
 
 ### 微信公众号  渣娃大酱  
-
-![微信公众号][1]  
-　　  
+![微信公众号二维码][1]  
+<style type="text/css">
+img[alt$="微信公众号二维码"]{
+	width: 215px;
+}	
+</style>
 　　  
 
 ### 记得我 以前 喜欢做的事情
@@ -51,14 +54,12 @@ permalink: /about/
 
 
 
-----
-  
 
 　　  
 
 -------------
 
-[1]:{{ site.url }}/assets/wechat_QR_code.jpeg
+[1]:{{ site.url }}/assets/wechat_QR_code.jpeg  "微信公众号 二维码"
 
 
 

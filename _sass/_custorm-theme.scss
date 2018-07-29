@@ -20,48 +20,115 @@ a:hover{
 }
 
 /* Social Links */
-
 .social-media-list {
-    > li {
-        width: 33%;
-        float: left;
+    > li{
         /* padding-left: 5px; */
-
-        a.social-link{
-
+        a[href*='.com']:before{
+            vertical-align: -2.5px;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: url('./icons/all_icons.png') no-repeat;
+            overflow: hidden;
+            text-indent: -9999px;
+            text-align: left;
+            content: ' ';
+            margin-right: 1px;
+            //-webkit-filter: grayscale(100%);
+            //filter: grayscale(100%);
         }
-        .icon {
-            margin-right: 2px;
-            vertical-align: -3px;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-        }
 
-        a[href*='plus.google.com']:before {content: url('./icons/plus.google.png'); margin-right: 2px; vertical-align: -3px;}
-        a[href*='codeforces.com']:before {content: url('./icons/codeforces.png'); margin-right: 2px; vertical-align: -3px;}
-        a[href*='topcoder.com']:before {content: url('./icons/topcoder.png'); margin-right: 2px; vertical-align: -3px;}
-        a[href*='facebook.com']:before { content: url('./icons/facebook.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='github.com']:before { content: url('./icons/github.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='linkedin.com']:before { content: url('./icons/linkedin.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='stackoverflow.com']:before { content: url('./icons/stackoverflow.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='twitter.com']:before { content: url('./icons/twitter.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='weibo.com']:before { content: url('./icons/weibo.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='zhihu.com']:before { content: url('./icons/zhihu.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='douban.com']:before { content: url('./icons/douban.png'); margin-right: 2px; vertical-align: -3px; }
-        a[href*='quora.com']:before { content: url('./icons/quora.png'); margin-right: 2px; vertical-align: -3px; }
+        a[href*='codeforces.com']:before {background-position: -4px -0px;  /*content: url('./icons/codeforces.png');*/ }
+        a[href*='douban.com']:before { background-position: -24px -0px;  /*content: url('./icons/douban.png');*/ }
+        a[href*='facebook.com']:before { background-position: -44px -0px;  /*content: url('./icons/facebook.png');*/ }
+        a[href*='github.com']:before { background-position: -4px -20px;  /*content: url('./icons/github.png');*/ }
+        a[href*='linkedin.com']:before { background-position: -24px -20px;  /*content: url('./icons/linkedin.png');*/ }
+        a[href*='plus.google.com']:before { background-position: -44px -20px;  /*content: url('./icons/plus.google.png');*/ }
+        a[href*='quora.com']:before { background-position: -4px -40px;  /*content: url('./icons/quora.png');*/ }
+        a[href*='stackoverflow.com']:before { background-position: -24px -40px;  /*content: url('./icons/stackoverflow.png');*/ }
+        a[href*='topcoder.com']:before {background-position: -44px -40px;  /*content: url('./icons/topcoder.png');*/ }
+        a[href*='twitter.com']:before { background-position: -4px -60px;  /*content: url('./icons/twitter.png');*/ }
+        a[href*='weibo.com']:before { background-position: -24px -60px;  /*content: url('./icons/weibo.png');*/ }
+        a[href*='weixin.sogou.com']:before { background-position: -44px -60px;  /*content: url('./icons/wechat_QR_code.png');*/ }
+        a[href*='zhihu.com']:before { background-position: -4px -80px;  /*content: url('./icons/zhihu.png');*/ }
+    }
+    &:after{
+        content: ' ';
+        clear: both;
     }
 }
 
-.footer-col-1 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
+.footer-col .social-media-list {
+    > li {
+        width: 33%;
+        float: left;
+    }
+    @include media-query($on-laptop) {
+        > li{
+            margin-bottom: 10px;
+        }
+    }
 }
 
-.footer-col-2 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+.home {
+    .social_area, .social-media-list{
+        display: none;
+    }
 }
 
+.home{
+    @extend %clearfix;
+}
+
+@include media-query2($on-laptop){
+    .home {
+        .post-list {
+            width: 500px;
+            float: left;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .sidebar {
+            float:left;
+            //position: fixed;
+            //right: 120px;
+            width: 200px;
+
+            .rss-subscribe {
+                text-align: center;
+                padding-left: 30px;
+                padding-top: 30px;
+                color:darkgray;
+                a{
+                    color:gray;
+                }
+            }
+            .social_area{
+                display: block;
+                color: lightgray;
+                font-size: 20px;
+                margin-top: 30px;
+                padding-left: 40px;
+            }
+            .social-media-list {
+                padding-left: 50px;
+                margin-top: 40px;
+                display: block;
+                //position: fixed;
+                //overflow-y: scroll;
+                //top: 150px;
+                //bottom: 135px;
+                //right: calc(100% - (800px / 2));
+                > li {
+                    width: 100px;
+                    padding-left: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+// calc(100% - (800px / 2))
 .rss-subscribe {
     text-align: right;
 }

@@ -7,7 +7,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d"  }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -15,8 +15,13 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-  
+  <div class="sidebar">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe"> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>订阅</p>
 
+    <p class="social_area">Social Links</p>
+    <ul class="social-media-list">
+      {% include social_links.html %}
+    </ul>
+  </div>
 </div>

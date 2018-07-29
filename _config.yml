@@ -6,24 +6,25 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: xujiazhe's tech&life spot
-email: woxujiazhe@gmail.com
+title: xujiazhe's tech&life
+email: xujiazhe@126.com
 description: > # this means to ignore newlines until "baseurl:" # 写一个网站的介绍，这个在head meta 里面出现(为了google的搜索) 而且在feed.xml 网站介绍里面
-  My nickname could be surfree, I record my life and tech progress here.
+  My nickname could be surfree, 我在这里记录我技术和生活的进步.
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://xujiazhe1989.gitee.io/blog" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://xujiazhe.github.io" # the base hostname & protocol for your site
 include: [_layout, _include, _sass]
 
 social_links: [
+  [公众号, 'https://weixin.sogou.com/weixin?type=1&ie=utf8&query=%E6%B8%A3%E5%A8%83%E5%A4%A7%E9%85%B1'],
   [Github, 'https://github.com/xujiazhe'],
-  [Quora, 'https://www.quora.com/profile/Jiazhe-Xu'],
-  [Twitter, 'https://twitter.com/xujiazhe'],
-  [Linkedin, 'https://cn.linkedin.com/in/jiazhe-xu-03545548'],
-  [豆瓣, 'https://www.douban.com/people/66868569/'],
   [知乎, 'https://www.zhihu.com/people/surfree'],
+  [豆瓣, 'https://www.douban.com/people/66868569/'],
+  [Quora, 'https://www.quora.com/profile/Jiazhe-Xu'],
   [微博, 'https://weibo.com/u/2979811624'],
-  [Google+, 'https://plus.google.com/111676680084673834081'],
+#  [Google+, 'https://plus.google.com/111676680084673834081'],
+  [Linkedin, 'https://cn.linkedin.com/in/jiazhe-xu-03545548'],
+  [Twitter, 'https://twitter.com/xujiazhe'],
   #[Topcoder, 'https://topcoder.com'],
   #[CodeForces, 'https://www.codeforces.com']
 ]
@@ -34,3 +35,8 @@ highlighter: rouge
 excerpt_separator: ""
 
 # paginate: 5
+
+
+# Disqus settings
+comments: true
+# disqus_username: Lucy

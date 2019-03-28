@@ -3,6 +3,7 @@ layout: post
 title:  "2016年终总结"
 date:   2016-12-23 17:08:41 +0800
 categories: work
+published: false
 tags: work learn
 ---
 

@@ -11,8 +11,9 @@ email: woxujiazhe@gmail.com
 description: > # this means to ignore newlines until "baseurl:" # 写一个网站的介绍，这个在head meta 里面出现(为了google的搜索) 而且在feed.xml 网站介绍里面
   My nickname could be surfree, I record my life and tech progress here.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xujiazhe.github.io" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://xujiazhe1989.gitee.io/blog" # the base hostname & protocol for your site
+include: [_layout, _include, _sass]
 
 social_links: [
   [Github, 'https://github.com/xujiazhe'],

@@ -62,7 +62,7 @@ upsource 是 jetbrains 公司出的一个CR 工具, upsource 支持zip和docker�
 
 - 安装docker     macos安装docker [教程](https://yeasy.gitbooks.io/docker_practice/content/install/mac.html); centos安装docker 教程就在上面;
 
-- docker安装upsource    docker pull jetbrains/upsource:[2017.2.2307](https://hub.docker.com/r/jetbrains/upsource/tags/)  找最新版本哦.  [其他仓库的结果](https://store.docker.com/search?q=upsource&source=community&type=image) : [结果1](https://store.docker.com/community/images/esycat/upsource) ; [结果2](https://store.docker.com/community/images/jetbrains/upsource)
+- docker安装upsource    docker pull jetbrains/upsource:[2017.2.2307](https://hub.docker.com/r/jetbrains/upsource/tags/)  找最新版本哦.  [其他仓库的结果](https://store.docker.com/search?q=upsource&source=community&type=image) : [结果1](https://store.docker.com/community/assets/esycat/upsource) ; [结果2](https://store.docker.com/community/assets/jetbrains/upsource)
 
 - 启动步骤, [官网](https://www.jetbrains.com/help/upsource/docker-installation.html); [文档2](https://hub.docker.com/r/jetbrains/upsource/)
 

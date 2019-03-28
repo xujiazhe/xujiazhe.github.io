@@ -21,8 +21,8 @@ permalink: /about/
 | python | 5 |
 | C++ | 5 |
 | Operating System | 4 |
-| CS Network | 3 |   
-  
+| CS Network | 3 |
+
 <br/>
   代码设计和阅读掌握能力强，学习钻研能力强；趴着编程效果更好；  
   自认为能较快的达到资深工程师的潜力  
@@ -30,11 +30,16 @@ permalink: /about/
 
 
 
-  
-    
+
+​    
 ----
-  
-  
+
+### 微信公众号  渣娃大酱  
+
+![微信公众号][1]  
+　　  
+　　  
+
 ### 记得我 以前 喜欢做的事情
 
 > 学习算法艺术性的代码; *极致的快感*   
@@ -42,14 +47,18 @@ permalink: /about/
 > Crack 数理问题; *好奇心和发散思维驱使我从多个角度推敲*  
 > 躺着练口语；写文章，写段子; *有一定的创造力*   
 
-> 躺读论文  
-  
+> 读论文  
+
 
 
 ----
+  
 
+　　  
 
-<embed src='https://player.youku.com/player.php/sid/XMjYxMDUyNjExMg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>  
+-------------
+
+[1]:{{ site.url }}/assets/wechat_QR_code.jpeg
 
 
 

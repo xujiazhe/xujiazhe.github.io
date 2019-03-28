@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "macos 一些中文包"
+title:  "macos中文帮助文档(终端, vim)"
 date:   2017-11-01 17:08:41 +0800
 categories: work
 tags: work

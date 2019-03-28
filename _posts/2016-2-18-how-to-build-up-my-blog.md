@@ -65,10 +65,10 @@ categories: #[[$CATEGORIES$]]#
 -------------
 markdown尾行两个空格是段内换行
 
-[1]:{{ site.url }}/images/1.png
-[2]:{{ site.url }}/images/2.png
-[3]:{{ site.url }}/images/3.png
-[4]:{{ site.url }}/images/4.png
-[5]:{{ site.url }}/images/5.png
+[1]:{{ site.url }}/assets/1.png
+[2]:{{ site.url }}/assets/2.png
+[3]:{{ site.url }}/assets/3.png
+[4]:{{ site.url }}/assets/4.png
+[5]:{{ site.url }}/assets/5.png
 
 

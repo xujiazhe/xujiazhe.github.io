@@ -10,22 +10,29 @@ permalink: /about/
 
 
 我于2012年毕业于一个北华大学计算机科学技术学院软件工程专业。  
-毕业后走过一些弯路，2016年上道。
+毕业后走过一些弯路，2016年上道。  
+    
+
+最自豪的事情  <br>
+2010年编程竞赛 打败吉林大学 同年级 即 第二代表队. 队友公开称赞: 全靠加哲; 贡献了至少80%;<br>
+一个月读完 <[深入理解计算机系统][2]>, 一个星期读完<[代码大全][3]>  <br>
+两个半月完成了<何以发达>, 中国过往和现状的分析, 对未来的展望. <br>
+最沉迷的事情, 极客diy技术.  
+
 <br/>
 
 | 技能 | 自己估分 |
 | :------ | :------: |
-| C | 7 |
-| Algorithm and Data Structure | 7 |
-| Javascript | 6 |
-| Python | 6 |
-| C++ | 5 |
-| Operating System | 5 |
-| CS Network | 4 |
+| C | 8 |
+| Algorithm and Data Structure | 8 |
+| Javascript | 7 |
+| Python | 7 |
+| C++ | 6 |
+| Operating System | 7 |
+| CS Network | 6 |
 
 <br/>
-  代码设计和阅读掌握能力强，学习钻研能力强；趴着编程效果更好；  
-  自认为能较快的达到资深工程师的潜力  
+  代码设计和阅读掌握能力强，学习钻研能力强；
  <br/>
 
 
@@ -49,7 +56,6 @@ img[alt$="微信公众号二维码"]{
 > 低头设计代码，趴着写代码; *估计是能加强脑部供血*   
 > Crack 数理问题; *好奇心和发散思维驱使我从多个角度推敲*  
 > 躺着练口语；写文章，写段子; *有一定的创造力*   
-
 > 读论文  
 
 
@@ -60,6 +66,8 @@ img[alt$="微信公众号二维码"]{
 -------------
 
 [1]:{{ site.url }}/assets/wechat_QR_code.jpeg  "微信公众号 二维码"
+[2]:(https://book.douban.com/subject/26912767/)
+[3]:(https://book.douban.com/subject/1477390/)
 
 
 
@@ -69,17 +77,5 @@ img[alt$="微信公众号二维码"]{
 　　要继续读书的本科实习生基本上都是保送中科院的。  
 部门的有 吉林大学的编程冠亚军，东北师范大学的编程冠亚军，大连理工十佳大学生，厦门大学的十佳。。。 他们本科毕业七八个月后(引擎部拆分)，就在百度阿里做高级职位了(高级研究员，大流量高并发研发组长，C++核心工程师，等等)。  
 我实习了7个月，由于个人问题离开。  
-
-I clearly know what have stopped my progress; I just didn't have time and resource to let the professor and doctor help me.
-I have been trying to adjust myself for three years, just for pulling up the output level in my potential.   
-
-　　毕业三年里我一直在调整，努力提高我潜力的稳定输出，第一年10~15%，第二年20%，第三年30%~45%；（在美团的时候年薪也逐步涨到27w）。  
-After that, finally I save myself from slimy mud in one battle, which last a few month, thank goodness.  
-In 2016, I am going to start my new career journey. this year I am going to make something.   
-In my past I have used Python, JavaScript, Shell in work. I am also familiar with C/C++.  
-
-I love the artistry of C++ and function programming of JavaScript.    
-I love to eat good books, have some cognition.  
-I love artistic code, I love program design and crack problem.  
 
 -->

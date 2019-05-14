@@ -23,11 +23,6 @@ sitemap:
 - 经思批判
 - 未来展望
 
-##### 微信公众号   小三篇
-- [人类的滚滚红尘](https://mp.weixin.qq.com/s/xCwteglapiCfKqyuevaFpw)
-- [人世间, 三级恶](https://mp.weixin.qq.com/s/Cyc_iqcENqURlzTfimO8vw)
-- [我的家乡](https://mp.weixin.qq.com/s/cokibotEWdCtwyEXzPhDnA)
-
 <br>
 
 #### 读书  两个月

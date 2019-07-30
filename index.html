@@ -2,26 +2,70 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home flex-column flex-row">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d"  }}</span>
+	<ul class="post-list">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class="sidebar">
+		<!-- This loops through the paginated posts -->
+		{% for post in paginator.posts %}
+		<li>
+			<span class="post-meta">{{ post.date | date: "%Y-%m-%d"  }}</span>
+			<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		</li>
+		{% endfor %}
+		<!--	  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>-->
+		<!--	  <p class="author"><span class="date">{{ post.date }}</span></p>-->
+		<!--	  <div class="content">{{ post.content }}</div>-->
 
-    <p class="rss-subscribe"> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>订阅</p>
 
-    <p class="social_area">Social Links</p>
-    <ul class="social-media-list">
-      {% include social_links.html %}
-    </ul>
-  </div>
+		<!-- Pagination links -->
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ site.paginate_path | relative_url | replace: 'page:num'}}">首页</a>
+				<a href="{{ paginator.previous_page_path | relative_url | replace: ':num', 1 }}" >&laquo; </a>
+			{% else %}
+				<!--<span>&laquo; </span>-->
+			{% endif %}
+
+<!--			max(paginator.page-2,1)     min(m, paginator.page + 2)-->
+<!--			1 < paginator.page-2-->
+<!--				...-->
+<!--			paginator.page+2 < paginator.total_pages-->
+<!--				...-->
+
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+					<em>{{ page }}</em>
+				{% elsif page == 1 %}
+					<a href="{{ site.paginate_path | relative_url | replace: 'page:num'}}">{{ page }}</a>
+				{% else %}
+					<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+				{% endif %}
+			{% endfor %}
+
+			{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path | relative_url }}">&raquo;</a>
+				<a href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}">尾页</a>
+			{% else %}
+				<!--<span>&raquo;</span>-->
+			{% endif %}
+		</div>
+		{% endif %}
+		<!--    \{\% f or post in site.posts %}-->
+		<!--      <li>-->
+		<!--        <span class="post-meta">{{ post.date | date: "%Y-%m-%d"  }}</span>-->
+		<!--        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>-->
+		<!--      </li>-->
+		<!--    \{\% endfor %}-->
+	</ul>
+	<div class="sidebar">
+
+		<p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>订阅</p>
+
+		<p class="social_flag">Social Links</p>
+		<ul class="social-media-list">
+			{% include social_links.html %}
+		</ul>
+	</div>
 </div>

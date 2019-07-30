@@ -1,7 +1,9 @@
 /* Links */
 
 a:hover{
-    text-decoration: none;
+	text-decoration: none;
+	color: #ea4e3c;
+    transition: color .2s;
 }
 
 .post-link{
@@ -14,7 +16,7 @@ a:hover{
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
-    @include media-query($on-laptop) {
+    @include onphone($on-laptop) {
         font-size: 25px;
     }
 }
@@ -58,76 +60,110 @@ a:hover{
     }
 }
 
-.footer-col .social-media-list {
-    > li {
-        width: 33%;
-        float: left;
-    }
-    @include media-query($on-laptop) {
-        > li{
-            margin-bottom: 10px;
-        }
-    }
-}
-
 .home {
-    .social_area, .social-media-list{
-        display: none;
-    }
+	display: flex !important;
+	@extend %clearfix;
+
+	.post-list {
+		width: 500px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	@include onpc($on-laptop) {
+		&.flex-row {
+			flex-direction: row;
+		}
+	}
+	@include onphone($on-laptop) {
+		&.flex-column {
+			flex-direction: column;
+
+		}
+		.post-list {
+			//width: $on-laptop - 20;
+			width: calc(100vw - 20px);
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	.sidebar {
+		//width: 200px;
+		.rss-subscribe {
+			text-align: center;
+			padding-left: 30px;
+			padding-top: 30px;
+			color: darkgray;
+
+			a {
+				color: gray;
+			}
+		}
+
+		.social_flag {
+			display: block;
+			color: lightgray;
+			font-size: 20px;
+			margin-top: 30px;
+			padding-left: 40px;
+		}
+
+		.social-media-list {
+			padding-left: 50px;
+			margin-top: 40px;
+			display: block;
+			//> li { /*width: 33%;*/}
+
+			@include onpc($on-laptop) {
+				> li {
+					//margin-bottom: 10px;
+					//float: left;
+					//width: 100px;
+					//padding-left: 20px;
+					margin-bottom: 10px;
+				}
+			}
+			@include onphone($on-laptop) {
+				> li {
+					width: 33%;
+					float: left;
+					min-width: 120px;
+					padding-left: 20px;
+					margin-bottom: 10px;
+				}
+			}
+			@extend %clearfix;
+			//right: calc(100% - (800px / 2));
+		}
+	}
 }
 
-.home{
-    @extend %clearfix;
+.pagination {
+	text-align: center;
+	> em {
+		margin-left: 5px;
+		margin-right: 5px;
+		border: 1px solid #b2b2b2;
+		padding: 5px 9px;
+		background: #ea4e3c;
+		color: white;
+	}
+	> a {
+		margin-left: 5px;
+		margin-right: 5px;
+		border: 1px solid #b2b2b2;
+		padding: 5px 9px;
+		&:hover {
+			transition-property: color, background;
+			background: #ea4e3c;
+			transition-duration: .2s;
+			color: white;
+		}
+	}
 }
 
-@include media-query2($on-laptop){
-    .home {
-        .post-list {
-            width: 500px;
-            float: left;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        .sidebar {
-            float:left;
-            //position: fixed;
-            //right: 120px;
-            width: 200px;
 
-            .rss-subscribe {
-                text-align: center;
-                padding-left: 30px;
-                padding-top: 30px;
-                color:darkgray;
-                a{
-                    color:gray;
-                }
-            }
-            .social_area{
-                display: block;
-                color: lightgray;
-                font-size: 20px;
-                margin-top: 30px;
-                padding-left: 40px;
-            }
-            .social-media-list {
-                padding-left: 50px;
-                margin-top: 40px;
-                display: block;
-                //position: fixed;
-                //overflow-y: scroll;
-                //top: 150px;
-                //bottom: 135px;
-                //right: calc(100% - (800px / 2));
-                > li {
-                    width: 100px;
-                    padding-left: 20px;
-                    margin-bottom: 10px;
-                }
-            }
-        }
-    }
-}
 // calc(100% - (800px / 2))
 .rss-subscribe {
     text-align: right;

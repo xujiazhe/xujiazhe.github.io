@@ -42,7 +42,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include onphone($on-palm) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -127,14 +127,14 @@
 }
 
 
-@include media-query2($on-laptop) {
+@include onpc($on-laptop) {
     .footer-col-1 {
-        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-        width:         calc(35% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+        width:         calc(30% - (#{$spacing-unit} / 2));
     }
     .footer-col-2 {
-        width: -webkit-calc(65% - (#{$spacing-unit} / 2));
-        width:         calc(65% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+        width:         calc(70% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
@@ -142,14 +142,14 @@
     }
 }
 
-@include media-query($on-laptop) {
+@include onphone($on-laptop) {
     .footer-col-1{
-        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-        width:         calc(35% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+        width:         calc(30% - (#{$spacing-unit} / 2));
     }
     .footer-col-2 {
-        width: -webkit-calc(65% - (#{$spacing-unit} / 2));
-        width:         calc(65% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+        width:         calc(70% - (#{$spacing-unit} / 2));
     }
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -203,7 +203,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include onphone($on-laptop) {
         font-size: 36px;
     }
 }
@@ -214,7 +214,7 @@
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include onphone($on-laptop) {
             font-size: 28px;
         }
     }
@@ -222,7 +222,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include onphone($on-laptop) {
             font-size: 22px;
         }
     }
@@ -230,7 +230,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include onphone($on-laptop) {
             font-size: 18px;
         }
     }

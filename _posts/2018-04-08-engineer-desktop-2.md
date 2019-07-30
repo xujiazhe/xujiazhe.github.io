@@ -66,6 +66,7 @@ chiphell  [专业装机](https://www.chiphell.com/thread-1884386-1-1.html)
 
 - 散热    头脑发热 怎么治?   用液态金解决了解决了散热效率问题, 就不需要台式工作站了.
 - 移动接口   雷电3    一根线解决各种扩展
+- 最好每半年维护一次, 通风清灰, 散热
 
 
 ### **三个和尚**
@@ -125,7 +126,7 @@ so 最后选择了两款 勉强选择了
 
 1. tex yoda2    及其 改装
   -   [键帽硅胶垫](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.41dd2e8d781qIs&id=542005247556&_u=387puuqb000)   江湖传闻 好键盘有 揉胸一般的效果
-  -   ​ 按照我的 手型和操作习惯, 键帽反装等等
+  -    按照我的 手型和操作习惯, 键帽反装等等
       -  几个常用的modifier键
         - 最下面一排 基本倒置了.. 和 图示一样凸  除了两个 win键
         - 左边Fn1 反装, 手掌不经意简 一低头, 我想要的功能就送到了左手指头嘴边
@@ -134,10 +135,10 @@ so 最后选择了两款 勉强选择了
       -  后面还得调整位置,  空格旁边加上一个FN
 
 2. [UHK](https://ultimatehackingkeyboard.com/)   发货好慢
-  - ​  modifier键多, 多模功能 (mod / Fn / 鼠控), 按键精简五排
-  - ​  可以分开 符合人体力工学
-  - ​  可以外加鼠控设备(大小轨迹球额外按键 / 指杆点触控板)
-  - ​  方案全部开放开源(电路板 / 程序)
+  -   modifier键多, 多模功能 (mod / Fn / 鼠控), 按键精简五排
+  -   可以分开 符合人体力工学
+  -   可以外加鼠控设备(大小轨迹球额外按键 / 指杆点触控板)
+  -   方案全部开放开源(电路板 / 程序)
 
     发货需要一年, 定位配件 [1](https://ultimatehackingkeyboard.com/product/trackball?utm_source=Ultimate+Hacking+Keyboard+Announcements&utm_campaign=d0ed754550-CW_2018_11_28_COPY_01&utm_medium=email&utm_term=0_08e27db3a6-d0ed754550-218977645&ct=t(CW_2018_11_28_COPY_01)&mc_cid=d0ed754550&mc_eid=19e9948acd) [2](https://ultimatehackingkeyboard.com/product/keycluster?utm_source=Ultimate+Hacking+Keyboard+Announcements&utm_campaign=d0ed754550-CW_2018_11_28_COPY_01&utm_medium=email&utm_term=0_08e27db3a6-d0ed754550-218977645&ct=t(CW_2018_11_28_COPY_01)&mc_cid=d0ed754550&mc_eid=19e9948acd) 还没生产出来, 那这个键盘还有有什么用?
     这样这个键盘就是个噱头啊, 大于 3000块. shit, 国际骗子真是不少呀.
@@ -176,8 +177,8 @@ so 最后选择了两款 勉强选择了
 ### **手机站岗**
 
 ​    充电线 和 座充
-  - ​ [座](https://detail.tmall.com/item.htm?id=558338150417&spm=a1z09.2.0.0.41dd2e8djx9xOU&_u=t87puuq5495)
-  - ​ [线](https://detail.tmall.com/item.htm?id=536345045398&spm=a1z09.2.0.0.41dd2e8djx9xOU&_u=t87puuq4161)
+  -  [座](https://detail.tmall.com/item.htm?id=558338150417&spm=a1z09.2.0.0.41dd2e8djx9xOU&_u=t87puuq5495)
+  -  [线](https://detail.tmall.com/item.htm?id=536345045398&spm=a1z09.2.0.0.41dd2e8djx9xOU&_u=t87puuq4161)
 ​  充电长亮设置 上面放着今天todolist  和 时间表
 
 ### **杂七杂八**

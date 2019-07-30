@@ -8,7 +8,7 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+*{box-sizing: border-box;}
 
 /**
  * Basic styling
@@ -164,7 +164,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include onphone($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

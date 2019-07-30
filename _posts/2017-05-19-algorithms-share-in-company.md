@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "算法分享 目录"
+title:  "在公司内部 做算法分享 的目录"
 date:   2017-05-19 15:27:34 +0800
 categories: work
 tags: work share

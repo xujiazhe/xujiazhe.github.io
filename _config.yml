@@ -16,13 +16,12 @@ url: "https://xujiazhe.github.io" # the base hostname & protocol for your site
 include: [_layout, _include, _sass]
 
 social_links: [
-  [公众号, 'https://weixin.sogou.com/weixin?type=1&ie=utf8&query=%E6%B8%A3%E5%A8%83%E5%A4%A7%E9%85%B1'],
+  [豆瓣, 'https://www.douban.com/people/66868569/'],
+  #[公众号, 'https://weixin.sogou.com/weixin?type=1&ie=utf8&query=%E6%B8%A3%E5%A8%83%E5%A4%A7%E9%85%B1'],
   [Github, 'https://github.com/xujiazhe'],
   [知乎, 'https://www.zhihu.com/people/surfree'],
-  [豆瓣, 'https://www.douban.com/people/66868569/'],
   [Quora, 'https://www.quora.com/profile/Jiazhe-Xu'],
   [微博, 'https://weibo.com/u/2979811624'],
-#  [Google+, 'https://plus.google.com/111676680084673834081'],
   [Linkedin, 'https://cn.linkedin.com/in/jiazhe-xu-03545548'],
   [Twitter, 'https://twitter.com/xujiazhe'],
   #[Topcoder, 'https://topcoder.com'],
@@ -34,9 +33,12 @@ highlighter: rouge
 # encoding: utf-8
 excerpt_separator: ""
 
-# paginate: 5
+ba_track_id: "544312011d73b11d78a418af9e8fa133"
+google_analytics: "UA-48521739-1"
 
+paginate: 10
+plugins: [jekyll-paginate, jekyll-admin]
 
 # Disqus settings
 comments: true
-# disqus_username: Lucy
+disqus_username: xujiazhe
